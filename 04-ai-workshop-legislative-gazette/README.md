@@ -4,6 +4,8 @@
 
 > 📥 **本單元上課簡報**：[下載 04-legislative-gazette.pptx](https://github.com/gemini960114/ai-workshop/raw/main/PPTX/04-legislative-gazette.pptx)（15 頁，含講者備註）
 
+> 🎬 **本單元教學影片**：[單元 04｜立法院公報整理](https://youtu.be/fl7JyDJWM6E)（YouTube）
+
 | 步驟 | 內容 | 預估時間 |
 | :--- | :--- | :---: |
 | **Step 1** | [事前準備：開對資料夾、裝兩個 skill](#事前準備) | 3 分鐘 |

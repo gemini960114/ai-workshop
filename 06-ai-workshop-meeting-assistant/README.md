@@ -4,6 +4,8 @@
 
 > 📥 **本單元上課簡報**：[下載 06-meeting-assistant.pptx](https://github.com/gemini960114/ai-workshop/raw/main/PPTX/06-meeting-assistant.pptx)（14 頁，含講者備註）
 
+> 🎬 **本單元教學影片**：[單元 06｜會議錄音轉紀錄](https://youtu.be/7jycY86Uvhk)（YouTube）
+
 | 步驟 | 內容 | 預估時間 |
 | :--- | :--- | :---: |
 | **Step 1** | [第一次使用前的設定](#第一次使用前的設定可請講師協助) | 5 分鐘 |

@@ -4,6 +4,8 @@
 
 > 📥 **本單元上課簡報**：[下載 05-voucher-ocr.pptx](https://github.com/gemini960114/ai-workshop/raw/main/PPTX/05-voucher-ocr.pptx)（17 頁，含講者備註）
 
+> 🎬 **本單元教學影片**：[單元 05｜核銷憑證辨識](https://youtu.be/pmyqMPZNUh4)（YouTube）
+
 | 步驟 | 內容 | 預估時間 |
 | :--- | :--- | :---: |
 | **Step 1** | [第一次使用前的設定](#第一次使用前的設定可請講師協助) | 5 分鐘 |
