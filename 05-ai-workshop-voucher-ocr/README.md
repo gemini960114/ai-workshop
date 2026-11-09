@@ -23,7 +23,23 @@
 - 🟨 有疑問的格子自動塗**螢光黃**並附原因；找不到的欄位留空，不會亂填
 - ✍️ 延伸練習：不用 skill，只用一段自然語言辨識[手寫直式作文](#延伸練習手寫直式作文辨識不用-skill只用自然語言)
 
-> 第一次使用前，請先完成文件後半段的〈[第一次使用前的設定](#第一次使用前的設定可請講師協助)〉，或請講師協助。
+## 第一次使用前的設定（可請講師協助）
+
+以下步驟每台電腦只需要做一次。課堂電腦已經裝好 uv 等工具。
+
+0. **開啟本單元資料夾**：用 Antigravity 的 **Open Folder** 開啟 `05-ai-workshop-voucher-ocr` 這個資料夾，不要開外層的 `ai-workshop`，否則 AI Agent 找不到本單元的 skill。接著開啟終端機（確認目前位置是本資料夾），之後的指令都在這裡執行。
+
+1. **安裝專案需要的套件**：
+
+   ```powershell
+   uv sync
+   ```
+
+2. **設定 API 金鑰**：複製 `.env.example` 成 `.env`，把 `OPENAI_API_KEY` 改成你的國網中心 GenAI Portal 金鑰。課堂上講師會提供範例金鑰；自己使用時請到 <https://portal.genai.nchc.org.tw/> 申請。`.env` 不會被上傳到 GitHub，請勿分享給他人。
+
+   ```powershell
+   Copy-Item .env.example .env
+   ```
 
 ## 範例：先用去識別化樣本試一次
 
@@ -165,24 +181,6 @@ AI Agent 本身就看得懂圖片，可以直接請它讀 PDF。因為 skill 會
 - 只想看懂大意時，單用 Muse-Spark 就夠了；要逐字存檔或人工覆核時，再加上 chandra-ocr-2。
 
 ---
-
-## 第一次使用前的設定（可請講師協助）
-
-以下步驟每台電腦只需要做一次。課堂電腦已經裝好 uv 等工具。
-
-0. **開啟本單元資料夾**：用 Antigravity 的 **Open Folder** 開啟 `05-ai-workshop-voucher-ocr` 這個資料夾，不要開外層的 `ai-workshop`，否則 AI Agent 找不到本單元的 skill。接著開啟終端機（確認目前位置是本資料夾），之後的指令都在這裡執行。
-
-1. **安裝專案需要的套件**：
-
-   ```powershell
-   uv sync
-   ```
-
-2. **設定 API 金鑰**：複製 `.env.example` 成 `.env`，把 `OPENAI_API_KEY` 改成你的國網中心 GenAI Portal 金鑰。課堂上講師會提供範例金鑰；自己使用時請到 <https://portal.genai.nchc.org.tw/> 申請。`.env` 不會被上傳到 GitHub，請勿分享給他人。
-
-   ```powershell
-   Copy-Item .env.example .env
-   ```
 
 ## 專案內容
 

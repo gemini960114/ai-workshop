@@ -19,7 +19,29 @@
 - 💬 紀錄產生後可以繼續追問，例如「哪些單位被分配到工作？」「幫我寫成提醒信」
 - 支援 .m4a、.mp3、.wav 等常見錄音格式，不限會議類型（業務會議、座談、訪談、教育訓練都可以）
 
-> 第一次使用前，請先完成文件後半段的〈[第一次使用前的設定](#第一次使用前的設定可請講師協助)〉，或請講師協助。
+## 第一次使用前的設定（可請講師協助）
+
+以下步驟每台電腦只需要做一次。課堂電腦已經裝好 uv、ffmpeg 等工具。
+
+0. **開啟本單元資料夾**：用 Antigravity 的 **Open Folder** 開啟 `06-ai-workshop-meeting-assistant` 這個資料夾，不要開外層的 `ai-workshop`，否則 AI Agent 找不到本單元的 skill。接著開啟終端機（確認目前位置是本資料夾），之後的指令都在這裡執行。
+
+1. **安裝專案需要的套件**：
+
+   ```powershell
+   uv sync
+   ```
+
+2. **設定 API 金鑰**：複製 `.env.example` 成 `.env`，把 `OPENAI_API_KEY` 改成你的國網中心 GenAI Portal 金鑰。課堂上講師會提供範例金鑰；自己使用時請到 <https://portal.genai.nchc.org.tw/> 申請。`.env` 不會被上傳到 GitHub，請勿分享給他人。
+
+   ```powershell
+   Copy-Item .env.example .env
+   ```
+
+3. **確認 ffmpeg**（處理錄音檔需要），看到版本號就可以：
+
+   ```powershell
+   ffmpeg -version
+   ```
 
 ## 第一步：產生會議紀錄
 
@@ -79,30 +101,6 @@ AI Agent 會跳出選單問你 4 個問題。**不確定怎麼選時，每題都
 - **換成自己的錄音：** 把錄音檔放進 `example/` 資料夾（或任何位置），把對話中的檔名換掉即可。
 
 ---
-
-## 第一次使用前的設定（可請講師協助）
-
-以下步驟每台電腦只需要做一次。課堂電腦已經裝好 uv、ffmpeg 等工具。
-
-0. **開啟本單元資料夾**：用 Antigravity 的 **Open Folder** 開啟 `06-ai-workshop-meeting-assistant` 這個資料夾，不要開外層的 `ai-workshop`，否則 AI Agent 找不到本單元的 skill。接著開啟終端機（確認目前位置是本資料夾），之後的指令都在這裡執行。
-
-1. **安裝專案需要的套件**：
-
-   ```powershell
-   uv sync
-   ```
-
-2. **設定 API 金鑰**：複製 `.env.example` 成 `.env`，把 `OPENAI_API_KEY` 改成你的國網中心 GenAI Portal 金鑰。課堂上講師會提供範例金鑰；自己使用時請到 <https://portal.genai.nchc.org.tw/> 申請。`.env` 不會被上傳到 GitHub，請勿分享給他人。
-
-   ```powershell
-   Copy-Item .env.example .env
-   ```
-
-3. **確認 ffmpeg**（處理錄音檔需要），看到版本號就可以：
-
-   ```powershell
-   ffmpeg -version
-   ```
 
 ## 專案內容
 

@@ -116,3 +116,12 @@ npx skills add anthropics/skills@frontend-design -a antigravity -a claude-code -
   ```text
   在這個 Case 你使用了哪些 Skills
   ```
+
+---
+
+## 學到的事
+
+- Skill 是一個資料夾＋`SKILL.md`，裝在專案層級只在這個資料夾生效；裝在使用者層級則所有專案都會用到。
+- 不用點名 skill，AI 會依任務內容自動判斷要不要載入；不確定有沒有生效，直接問「這個 Case 你使用了哪些 Skills」。
+- 同樣的 prompt，裝了 frontend-design 之後，AI 會先想清楚主題、受眾和視覺方向，而不是套用制式模板——這就是 skill 帶來的差別。
+- 裝好 skill 後要**重新開啟 AI Agent 的對話**，才會生效。
