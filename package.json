@@ -1,7 +1,6 @@
 {
   "name": "ai-workshop",
   "version": "1.0.0",
-  "type": "module",
   "description": "AI 工作坊：用中文對話請 AI Agent 完成網頁、文件、資料整理與語音紀錄",
   "scripts": {
     "docs:sync": "node scripts/sync-docs.mjs",
