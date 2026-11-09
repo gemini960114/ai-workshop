@@ -55,7 +55,7 @@ export default defineConfig({
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/gemini960114/ai-workshop' }],
     footer: {
-      message: '用中文對話請 AI Agent 完成網頁、文件、資料整理與語音紀錄',
+      message: '用 AI Agent 直接處理地端文件、資料整理與語音紀錄',
       copyright: 'Copyright © 2026 AI 工作坊',
     },
   },
