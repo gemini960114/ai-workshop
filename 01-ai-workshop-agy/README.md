@@ -2,12 +2,18 @@
 
 用 **Google Antigravity IDE** 搭配內建的 AI Agent，用中文對話完成安裝、建立網頁，最後做出一個能玩的小遊戲。不需要寫程式經驗，約 45 分鐘。
 
-| 步驟 | 內容 |
-| :--- | :--- |
-| **Step 1～3** | 安裝 Antigravity、登入、調整版面 |
-| **Step 4** | 請 AI 安裝與確認工具 |
-| **Step 5** | 小暖身：第一個網頁 |
-| **Step 6** | 遊戲範例：記憶翻牌 |
+> 📥 **本單元上課簡報**：[下載 01-antigravity.pptx](https://github.com/gemini960114/ai-workshop/raw/main/PPTX/01-antigravity.pptx)（19 頁，含講者備註）
+
+> 🎬 **本單元教學影片**：[單元 01｜Antigravity 入門](https://youtu.be/PQEkjWiNC5o)（YouTube）
+
+| 步驟 | 內容 | 預估時間 |
+| :--- | :--- | :---: |
+| **Step 1** | [下載並安裝 Antigravity IDE](#step-1下載並安裝-antigravity-ide) | 3 分鐘 |
+| **Step 2** | [開啟 Antigravity 並登入](#step-2開啟-antigravity-並登入) | 2 分鐘 |
+| **Step 3** | [開啟專案資料夾、調整版面](#step-3開啟專案資料夾調整版面) | 3 分鐘 |
+| **Step 4** | [請 AI 安裝與確認工具](#step-4請-ai-安裝與確認工具) | 5 分鐘 |
+| **Step 5** | [小暖身：確認 AI 能正常工作](#step-5小暖身確認-ai-能正常工作) | 3 分鐘 |
+| **Step 6** | [遊戲範例：記憶翻牌](#step-6遊戲範例記憶翻牌) | 10 分鐘 |
 
 > [!NOTE]
 > 課堂電腦已經裝好 Antigravity 和所有工具：**跳過 Step 1**，Step 4 只做最後的「確認工具」。以下安裝步驟是給你在自己的電腦上使用時參考。

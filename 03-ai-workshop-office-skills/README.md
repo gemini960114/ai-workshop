@@ -2,6 +2,18 @@
 
 用 4 個官方 skill，把一份 CSV 一路做成 Excel、簡報、Word 報告和 PDF 講義。
 
+> 📥 **本單元上課簡報**：[下載 03-office-skills.pptx](https://github.com/gemini960114/ai-workshop/raw/main/PPTX/03-office-skills.pptx)（12 頁，含講者備註）
+
+> 🎬 **本單元教學影片**：[單元 03｜Office 文件處理](https://youtu.be/FwIpKAJ2-vk)（YouTube）
+
+| 步驟 | 內容 | 預估時間 |
+| :--- | :--- | :---: |
+| **Step 1** | [安裝 4 個官方 skill](#安裝) | 3 分鐘 |
+| **Step 2** | [範例 1（xlsx）：CSV 做成有圖表的 Excel](#範例-1xlsx把-csv-做成有圖表的-excel) | 5 分鐘 |
+| **Step 3** | [範例 2（pptx）：做成可上課用的動畫簡報](#範例-2pptx根據-excel-做可上課用的動畫簡報) | 8 分鐘 |
+| **Step 4** | [範例 3（docx）：寫一份 Word 分析報告](#範例-3docx根據-excel-寫一份-word-報告) | 5 分鐘 |
+| **Step 5** | [範例 4（pdf）：轉成上課講義 PDF](#範例-4pdf把報告轉成上課講義-pdf) | 3 分鐘 |
+
 > [!IMPORTANT]
 > 請用 Antigravity 的 **Open Folder** 開啟 `03-ai-workshop-office-skills` 這個資料夾，不要開外層的 `ai-workshop`。
 

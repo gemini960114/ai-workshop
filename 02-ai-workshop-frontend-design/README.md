@@ -2,6 +2,17 @@
 
 認識 skill 是什麼、怎麼安裝，再用 Anthropic 官方的 frontend-design skill 做一個品牌網頁和記憶翻牌遊戲，比較有沒有 skill 的差別。
 
+> 📥 **本單元上課簡報**：[下載 02-frontend-design.pptx](https://github.com/gemini960114/ai-workshop/raw/main/PPTX/02-frontend-design.pptx)（12 頁，含講者備註）
+
+> 🎬 **本單元教學影片**：[單元 02｜前端設計](https://youtu.be/qVPdYf5CD2A)（YouTube）
+
+| 步驟 | 內容 | 預估時間 |
+| :--- | :--- | :---: |
+| **Step 1** | [認識 Skill 是什麼、怎麼安裝](#先備知識) | 3 分鐘 |
+| **Step 2** | [安裝 frontend-design skill](#安裝-frontend-design) | 3 分鐘 |
+| **Step 3** | [範例 1：從零做一個有個性的產品頁](#範例-1從零做一個有個性的產品頁) | 10 分鐘 |
+| **Step 4** | [範例 2：記憶翻牌，和單元 01 比一比](#範例-2記憶翻牌和單元-01-比一比) | 10 分鐘 |
+
 > [!IMPORTANT]
 > 請用 Antigravity 的 **Open Folder** 開啟 `02-ai-workshop-frontend-design` 這個資料夾，不要開外層的 `ai-workshop`。
 

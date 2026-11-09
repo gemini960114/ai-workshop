@@ -1,0 +1,7 @@
+apikey
+node_modules/
+
+# VitePress 網站建置與同步暫存目錄
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/guide/*.md
