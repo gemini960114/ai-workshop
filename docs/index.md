@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "AI 工作坊"
-  text: "用中文請 AI Agent 完成網頁、文件、資料整理與語音紀錄"
-  tagline: 不需要寫程式經驗，六個單元依序完成
+  text: "請 AI Agent 幫你完成網頁、文件、資料整理與語音紀錄"
+  tagline: 幾乎不需要寫程式經驗，六個單元依序完成
   actions:
     - theme: brand
       text: 開始課程（單元 01）

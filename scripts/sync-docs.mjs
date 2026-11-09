@@ -67,3 +67,4 @@ for (const [dir, page] of Object.entries(CHAPTERS)) {
 }
 
 write('00_overview', rewriteLinks(readFileSync(join(ROOT, 'README.md'), 'utf8'), fromRoot))
+write('prompts_all', rewriteLinks(readFileSync(join(ROOT, '練習Prompt總表.md'), 'utf8'), fromRoot))

@@ -27,6 +27,7 @@ export default defineConfig({
           { text: '06. 會議錄音轉紀錄', link: '/guide/06_meeting_assistant' },
         ],
       },
+      { text: '練習 Prompt 總表', link: '/guide/prompts_all' },
     ],
     sidebar: [
       {
@@ -43,6 +44,10 @@ export default defineConfig({
           { text: '05. 核銷憑證辨識', link: '/guide/05_voucher_ocr' },
           { text: '06. 會議錄音轉紀錄', link: '/guide/06_meeting_assistant' },
         ],
+      },
+      {
+        text: '附錄參考',
+        items: [{ text: '練習 Prompt 總表', link: '/guide/prompts_all' }],
       },
     ],
     search: {
