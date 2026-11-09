@@ -134,7 +134,7 @@ CSV ──xlsx──▶ pmi.xlsx ──pptx──▶ pmi.pptx
 ## 範例 4（pdf）：把報告轉成上課講義 PDF
 
 ```text
-把 output/pmi-report.docx 轉成 PDF，存成 output/pmi-report.pdf：
+把 output/pmi-report.docx 用 LibreOffice 轉成 PDF，存成 output/pmi-report.pdf：
 每頁下方加上頁碼，並加上淡灰色「課堂講義」浮水印。
 ```
 
@@ -142,5 +142,5 @@ CSV ──xlsx──▶ pmi.xlsx ──pptx──▶ pmi.pptx
 
 **檢查重點：**
 
-- 轉 PDF 需要 LibreOffice 或 Word。兩者都沒有時，AI Agent 可能改用其他方式自己排版輸出 PDF，版面會和 Word 不同。
+- 轉 PDF 指定用 LibreOffice（課堂電腦已安裝）；自己的電腦沒有 LibreOffice 時，可以把 Prompt 改成「用 Word 轉成 PDF」。兩者都沒有時，AI Agent 可能改用其他方式自己排版輸出 PDF，版面會和 Word 不同。
 - 頁碼、浮水印用程式疊加時，必須指定中文字型（例如微軟正黑體、Noto Sans TC），否則「課堂講義」會變成方框。這是最常見的錯誤。
